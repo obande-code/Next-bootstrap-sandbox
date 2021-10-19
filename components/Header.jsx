@@ -58,7 +58,7 @@ const Header = () => {
                                         </div>
                                     }
                                 </div>
-                                <div className={"border-secondary "+ `${styles.mobile} ` + `${styles.borderbottom}`}></div>
+                                {/* <div className={"border-secondary "+ `${styles.mobile} ` + `${styles.borderbottom}`}></div> */}
                             </div>
                         )
                     })
