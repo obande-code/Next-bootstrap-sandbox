@@ -51,11 +51,11 @@ const Header = () => {
                                         </div>
                                     </div>
                                     {(index == 0 || index == 5) &&
-                                        // <div className={"position-absolute " + `${styles.bottomzero} ` + (index == 0 ? "start-0" : "end-0")}>
-                                        //     <div className="position-relative">
-                                        //         <div className={"position-absolute " + `${styles.vline}`}></div>
-                                        //     </div>
-                                        // </div>
+                                        <div className={"position-absolute " + `${styles.bottomzero} ` + (index == 0 ? "start-0" : "end-0")}>
+                                            <div className="position-relative">
+                                                <div className={"position-absolute " + `${styles.vline}`}></div>
+                                            </div>
+                                        </div>
                                     }
                                 </div>
                                 <div className={"border-secondary "+ `${styles.mobile} ` + `${styles.borderbottom}`}></div>
