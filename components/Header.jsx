@@ -45,7 +45,7 @@ const Header = () => {
                                             <div className="position-relative">
                                                 {
 
-                                                    index === navnum ? <div className={"position-absolute " + `${styles.bround}`}></div> : <div className={"position-absolute "+ `${styles.round}`}></div>
+                                                    // index === navnum ? <div className={"position-absolute " + `${styles.bround}`}></div> : <div className={"position-absolute "+ `${styles.round}`}></div>
                                                 }
                                             </div>
                                         </div>
