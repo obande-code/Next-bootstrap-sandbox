@@ -1,0 +1,68 @@
+.vline {
+  width: 1px;
+  height: 8px;
+  background-color: #6c757d;
+  margin-top: -4px;
+}
+.round {
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: -4px;
+  margin-left: -3px;
+  background-color: black;
+}
+.bround {
+  width: 16px;
+  height: 16px;
+  background-color: rgb(241, 85, 13);
+  border-radius: 30px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+@media (max-width: 992px)
+{
+  .rotate {
+    transform: rotate(90deg);
+    transform-origin: 450px 450px;
+    position: fixed;
+    top: 10px;
+    right: 70px;
+  }
+  .bottom-00{
+    top: 0;
+  }
+  .mobile{
+    display: none;
+  }
+}
+@media (min-width: 992px)
+{
+  .bottomzero{
+    bottom: 0;
+  }
+  .landscape {
+    display: none;
+  }
+}
+
+.borderbottom{
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.mtitle {
+  font-size: 16px;
+  color: rgb(179, 68, 68);
+}
+.pre {
+  color: white;
+  mix-blend-mode: difference;
+  text-align: center;
+  font-size: 16px;
+}
+.mix {
+  mix-blend-mode: difference;
+}
